@@ -132,7 +132,7 @@
             /* Icono de maleta solo en el ÚLTIMO <h3> dentro de su contenedor (:last-of-type cuenta hermanos del mismo tag) */
             h3:last-of-type {
                 text-indent: 1.5rem;
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-luggage-fill" viewBox="0 0 16 16"><path d="M2 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V5h.5A1.5 1.5 0 0 1 8 6.5V7H7v-.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H4v1H2.5v.25a.75.75 0 0 1-1.5 0v-.335A1.5 1.5 0 0 1 0 13.5v-7A1.5 1.5 0 0 1 1.5 5H2zM3 5h2V2H3z"/><path d="M2.5 7a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0v-5a.5.5 0 0 1 .5-.5m10 1v-.5A1.5 1.5 0 0 0 11 6h-1a1.5 1.5 0 0 0-1.5 1.5V8H8v8h5V8zM10 7h1a.5.5 0 0 1 .5.5V8h-2v-.5A.5.5 0 0 1 10 7M5 9.5A1.5 1.5 0 0 1 6.5 8H7v8h-.5A1.5 1.5 0 0 1 5 14.5zm9 6.5V8h.5A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5z"/></svg>');
+                background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386"/></svg>');
                 background-repeat: no-repeat;
                 background-size: 1rem 1rem;
             }
@@ -272,7 +272,7 @@
             
             <h2>Las mejores universidades del mundo en Arte y Diseño</h2>
             
-            <h5>Por <a href="">Nombre Apellido</a></h5>
+            <h5>Por <a href="https://github.com/profesorfaco/">Felipe Cortez</a></h5>
             
             <h6>Publicado el viernes 2 de octubre, 2026 &nbsp;&nbsp; 3:00 p.m. GMT-3</h6>
 
@@ -388,7 +388,7 @@
             const tbodyOtros = document.querySelector("#otros");
 
             // Dirección desde donde vamos a pedir los datos (JSON).
-            const ENDPOINT = "…";
+            const ENDPOINT = "https://api.myjson.online/v1/records/946f3c0e-0c5f-4afc-9ce9-9257d906a894";
 
             // Listas de países para clasificar cada universidad por continente.
             // "some()" revisará, dentro del forEach, si AL MENOS UNO de estos strings aparece en u.location
